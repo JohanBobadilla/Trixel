@@ -1,19 +1,21 @@
 using UnityEngine;
+using System;
 
-
-[System.Serializable]
+[Serializable]
 public class PlayerData
 {
     public string playerName;
     public int playerScore;
-    public int playerLevel;
     public Sprite playerSprite;
+    public PlayerType playerType;
 
-    public PlayerData(string name, int score, int level, Sprite sprite)
+    public PlayerData(string name, int score, PlayerType player, Sprite sprite)
     {
         playerName = name;
         playerScore = score;
-        playerLevel = level;
         playerSprite = sprite;
+        playerType = player;
     }
 }
+
+

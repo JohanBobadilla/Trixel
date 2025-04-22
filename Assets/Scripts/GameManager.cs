@@ -2,8 +2,12 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public PlayerData player1;
-    public PlayerData player2;
+    public PlayerData[] players;
+    public PlayerData currentPlayer;
 
-
+    void Start()
+    {
+        currentPlayer = players[TurnSystem.instance.StartTurns()];
+        print(currentPlayer.playerName);
+    }
 }
