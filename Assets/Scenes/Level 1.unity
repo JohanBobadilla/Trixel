@@ -423,9 +423,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67efd7d2bdb8e614bb58ad1d69cfd4f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cellIndex: 0
-  playerSprite: {fileID: 1724666636, guid: 225649f323b7aa945b43781d2d6230bc, type: 3}
-  pcSprite: {fileID: 322624166, guid: 225649f323b7aa945b43781d2d6230bc, type: 3}
   simboloRenderer: {fileID: 1185243901}
 --- !u!61 &345721873
 BoxCollider2D:
@@ -571,9 +568,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67efd7d2bdb8e614bb58ad1d69cfd4f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cellIndex: 0
-  playerSprite: {fileID: 1724666636, guid: 225649f323b7aa945b43781d2d6230bc, type: 3}
-  pcSprite: {fileID: 322624166, guid: 225649f323b7aa945b43781d2d6230bc, type: 3}
   simboloRenderer: {fileID: 1511130391}
 --- !u!61 &557232473
 BoxCollider2D:
@@ -887,9 +881,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67efd7d2bdb8e614bb58ad1d69cfd4f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cellIndex: 0
-  playerSprite: {fileID: 1724666636, guid: 225649f323b7aa945b43781d2d6230bc, type: 3}
-  pcSprite: {fileID: 322624166, guid: 225649f323b7aa945b43781d2d6230bc, type: 3}
   simboloRenderer: {fileID: 1762388880}
 --- !u!61 &941938523
 BoxCollider2D:
@@ -1221,9 +1212,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67efd7d2bdb8e614bb58ad1d69cfd4f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cellIndex: 0
-  playerSprite: {fileID: 1724666636, guid: 225649f323b7aa945b43781d2d6230bc, type: 3}
-  pcSprite: {fileID: 322624166, guid: 225649f323b7aa945b43781d2d6230bc, type: 3}
   simboloRenderer: {fileID: 1584126248}
 --- !u!61 &1245931435
 BoxCollider2D:
@@ -1477,9 +1465,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67efd7d2bdb8e614bb58ad1d69cfd4f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cellIndex: 0
-  playerSprite: {fileID: 1724666636, guid: 225649f323b7aa945b43781d2d6230bc, type: 3}
-  pcSprite: {fileID: 322624166, guid: 225649f323b7aa945b43781d2d6230bc, type: 3}
   simboloRenderer: {fileID: 2085224429}
 --- !u!61 &1479487375
 BoxCollider2D:
@@ -1650,6 +1635,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerSplite: {fileID: 0}
   pcSprite: {fileID: 0}
+  playerTurn: 1
 --- !u!4 &1545315817
 Transform:
   m_ObjectHideFlags: 0
@@ -1857,9 +1843,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67efd7d2bdb8e614bb58ad1d69cfd4f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cellIndex: 0
-  playerSprite: {fileID: 1724666636, guid: 225649f323b7aa945b43781d2d6230bc, type: 3}
-  pcSprite: {fileID: 322624166, guid: 225649f323b7aa945b43781d2d6230bc, type: 3}
   simboloRenderer: {fileID: 1137380145}
 --- !u!61 &1647912878
 BoxCollider2D:
@@ -2098,9 +2081,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67efd7d2bdb8e614bb58ad1d69cfd4f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cellIndex: 0
-  playerSprite: {fileID: 1724666636, guid: 225649f323b7aa945b43781d2d6230bc, type: 3}
-  pcSprite: {fileID: 322624166, guid: 225649f323b7aa945b43781d2d6230bc, type: 3}
   simboloRenderer: {fileID: 656172720}
 --- !u!61 &1764339048
 BoxCollider2D:
@@ -2389,9 +2369,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67efd7d2bdb8e614bb58ad1d69cfd4f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cellIndex: 0
-  playerSprite: {fileID: 1724666636, guid: 225649f323b7aa945b43781d2d6230bc, type: 3}
-  pcSprite: {fileID: 322624166, guid: 225649f323b7aa945b43781d2d6230bc, type: 3}
   simboloRenderer: {fileID: 147617779}
 --- !u!61 &1878167936
 BoxCollider2D:
@@ -2589,9 +2566,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67efd7d2bdb8e614bb58ad1d69cfd4f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cellIndex: 0
-  playerSprite: {fileID: 1724666636, guid: 225649f323b7aa945b43781d2d6230bc, type: 3}
-  pcSprite: {fileID: 322624166, guid: 225649f323b7aa945b43781d2d6230bc, type: 3}
   simboloRenderer: {fileID: 1859057821}
 --- !u!61 &1892549758
 BoxCollider2D:

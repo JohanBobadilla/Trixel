@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public Sprite playerSplite;
-    public Sprite pcSprite;
+    public PlayerData player1;
+    public PlayerData player2;
 
-    
+
 }
